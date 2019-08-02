@@ -19,7 +19,7 @@ RUN wget https://github.com/xmlking/dockerize/releases/download/$DOCKERIZE_VERSI
 
 
 
-#COPY nginx.conf /etc/nginx/conf.d/default.conf
+COPY nginx.conf /etc/nginx/conf.d/nginx.conf
 #ADD  nginx.conf etc/nginx/conf.d/
 EXPOSE 8080
 
